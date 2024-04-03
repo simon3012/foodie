@@ -1,0 +1,143 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-repeat: no-repeat;
+    background-color: teal;
+    background-position: center center;
+    background-image: url(C:\Users\simon\Pictures\Screenshot_20240326-100054.jpg);
+    background-size: cover;
+    filter: brightness(50%);
+    background-attachment: fixed;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: rgb(201, 100, 69);
+    color:palevioletred
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('hero-bg.jpg');
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: rgb(202, 214, 31);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d00;
+}
+
+/* Featured Section Styles */
+.featured {
+    padding: 50px 0;
+}
+
+.featured h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 50%;
+    max-width:50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.item h3 {
+    font-size: 24px;
+}
+
+.item p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f00;
+}
+footer{
+    background-color: violet;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.list{
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    list-style: none;
+}
+.footer nav li{
+    margin: 10px;
+}

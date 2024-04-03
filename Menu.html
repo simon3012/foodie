@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Place</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+    }
+    h1{
+        text-align: center;
+        color: green;
+        padding: 20px;
+    }
+    nav{
+        background-color: lime;
+        display: grid;
+        place-items: center;
+    }
+    nav ul{
+       list-style-type: none;
+    }
+    nav ul a{
+        display: inline-block;
+        padding: 20px;
+        text-decoration: none;
+        color: #000;
+        transition: 0.2s ease-in;
+        font-size: 18px;
+    }
+    nav ul a:hover{
+        background-color: green;
+        color: white;
+    } 
+    .items{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        padding: 30px 20px;
+        grid-column-gap: 20px;
+        grid-row-gap: 30px;
+    }
+    .item img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        transition: 0.2s ease;
+        border-radius:7px ;
+    }
+    .item img:hover{
+        transform: scale(1.09);
+    }
+    .item h4{
+        padding: 5px;
+        text-align: center;
+    }
+    .item button{
+       padding: 5px 30px;
+       border: none;
+       outline: none;
+       background-color: green; 
+       color: white;
+       cursor: pointer;
+       border-radius: 4px;
+       font-size: 20px;
+       display: block;
+       margin: 0 auto;
+       transition: 0.2s all;
+
+    }
+    .item button:hover{
+        transform: scale(1.04);
+
+    }
+    @media screen and (max-width:1000px) {
+       .items{
+        grid-template-columns: repeat(2, 1fr);
+       } 
+    }
+    @media screen and (max-width:768px) {
+       .items{
+        grid-template-columns: repeat(1, 1fr);
+       } 
+    }
+</style>
+<body>
+    <h1>SavorHarmonykitchen</h1>
+    <nav>
+        <ul>
+            <a href="file:///C:/Users/simon/Desktop/foodie/Homefoodie.html"><li>Home</li></a>
+            <a href="file:///C:/Users/simon/Desktop/foodie/About.html"><li>About</li></a>
+            <a href="file:///C:/Users/simon/Desktop/foodie/Menu.html"><li>Menu</li></a>
+            <li><a href="file:///C:/Users/simon/Desktop/foodie/Order.html"> Place Order</a></li>
+            <a href="file:///C:/Users/simon/Desktop/foodie/contactus.html"><li>Contact</li></a>
+        </ul>
+    </nav>
+    <p style="color:red(0, 0, 0); font-family: 'Franklin Gothic Medium'; padding-top: 10px; text-align: center;">
+         A list of what the Menu contains
+    </p>
+    <section class="items">
+        <div class="item">
+            <img src="C:\Users\simon\Pictures\meal1.jpg">
+            <h4>sweet squash</h4>
+            
+        </div>
+        <div class="item">
+            <img src="C:\Users\simon\Pictures\meal2.jpg">
+            <h4>marinated Fish</h4>
+         
+        </div>
+        <div class="item">
+            <img src="C:\Users\simon\Pictures\meal3.jpg">
+            <h4>Sizziling Acquatic food</h4>
+           
+        </div>
+        <div class="item">
+            <img src="C:\Users\simon\Pictures\meal4.jpg">
+            <h4>Delicacies</h4>
+           
+        </div>
+        <div class="item">
+            <img src="C:\Users\simon\Pictures\meal5.jpg">
+            <h4>Cake</h4>
+            
+        </div>
+        <div class="item">
+            <img src="C:\Users\simon\Pictures\meal6.jpg">
+            <h4>Tacos</h4>
+            
+        </div>
+        <div class="item">
+            <img src="C:\Users\simon\Pictures\meal7.jpg">
+            <h4>veggies</h4>
+           
+        </div>
+        <div class="item">
+            <img src="C:\Users\simon\Pictures\meal8.jpg">
+            <h4>mixed Salad</h4>
+            
+        </div>
+        <div class="item">
+            <img src="C:\Users\simon\Pictures\meal9.jpg">
+            <h4>Vegitable Salad</h4>
+            
+        </div>
+        <div class="item">
+            <img src="C:\Users\simon\Pictures\meal12.jpg">
+            <h4>marinated pork</h4>
+           
+        </div>
+        <div class="item">
+            <img src="C:\Users\simon\Pictures\meal11.jpg">
+            <h4>Spiced Fruit Salad</h4>
+            
+        </div>
+        <div class="item">
+            <img src="C:\Users\simon\Pictures\meal11.jpg">
+            <h4>Plain Fruit Salad</h4>
+            
+        </div>
+        <div class="item">
+            <img src="C:\Users\simon\Pictures\meal13.jpg">
+            <h4>Fried Beef</h4>
+           
+        </div>
+        <div class="item">
+            <img src="C:\Users\simon\Pictures\meal14.jpg">
+            <h4>Wet Fry</h4>
+           
+        </div>
+        <div class="item">
+            <img src="C:\Users\simon\Pictures\meal15.jpg">
+            <h4>Chicken Coupon</h4>
+            
+        </div>
+        <div class="item">
+            <img src="C:\Users\simon\Pictures\meal16.jpg">
+            <h4>Rice with Vinegar</h4>
+        
+        </div>
+        <div class="item">
+            <img src="C:\Users\simon\Pictures\meal17.jpg">
+            <h4> biriyani</h4>
+           
+        </div>
+        <div class="item">
+            <img src="C:\Users\simon\Pictures\meal18.jpg">
+            <h4>Ugali fish</h4>
+            
+        </div>
+        <div class="item">
+            <img src="C:\Users\simon\Pictures\meal19.jpg">
+            <h4>Ugali beef with side veggies</h4>
+           
+        </div>
+        <div class="item">
+            <img src="C:\Users\simon\Pictures\meal20.jpg">
+            <h4>ugali kales</h4>
+           
+        </div>
+        
+        <p style="text-align: center; color: blueviolet; font-style: italic; font-weight: normal;">
+            more foods are available below
+        </p>
+            
+    
+   </section>
+    
+  
+</body>
+</html>
